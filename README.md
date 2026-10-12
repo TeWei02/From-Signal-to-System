@@ -52,8 +52,8 @@ This project treats robotic navigation as an **end-to-end communications system*
 
 ```bash
 # Clone and navigate
-git clone https://github.com/TeWei02/From-Signal-to-System-Communications-Sensing-and-Robotic-Navigation.git
-cd From-Signal-to-System-Communications-Sensing-and-Robotic-Navigation
+git clone https://github.com/TeWei02/From-Signal-to-System.git
+cd From-Signal-to-System
 
 # Install Python dependencies
 pip install -r requirements.txt

@@ -189,7 +189,7 @@ def build_dataset() -> dict:
             "project": "From Signal to System",
             "repository": (
                 "https://github.com/TeWei02/"
-                "From-Signal-to-System-Communications-Sensing-and-Robotic-Navigation"
+                "From-Signal-to-System"
             ),
             "generated_by": "tools/build_web_data.py",
             "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),

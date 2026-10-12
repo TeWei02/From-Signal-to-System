@@ -1,7 +1,7 @@
 {
  "meta": {
   "project": "From Signal to System",
-  "repository": "https://github.com/TeWei02/From-Signal-to-System-Communications-Sensing-and-Robotic-Navigation",
+  "repository": "https://github.com/TeWei02/From-Signal-to-System",
   "generated_by": "tools/build_web_data.py",
   "generated_at": "2026-09-23T01:31:15Z",
   "python": "3.11.9",

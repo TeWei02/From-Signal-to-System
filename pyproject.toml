@@ -9,7 +9,7 @@ description = "Robotics research: Communications, Sensing, and Navigation"
 readme = "README.md"
 license = {text = "MIT"}
 authors = [
-    {name = "Robotics Team", email = "research@example.com"},
+    {name = "Robotics Team", email = "229563995+TeWei02@users.noreply.github.com"},
 ]
 requires-python = ">=3.8"
 
@@ -48,8 +48,8 @@ mapping = [
 ]
 
 [project.urls]
-Repository = "https://github.com/TeWei02/From-Signal-to-System-Communications-Sensing-and-Robotic-Navigation"
-Documentation = "https://github.com/TeWei02/From-Signal-to-System-Communications-Sensing-and-Robotic-Navigation/docs"
+Repository = "https://github.com/TeWei02/From-Signal-to-System"
+Documentation = "https://github.com/TeWei02/From-Signal-to-System/docs"
 
 [tool.setuptools]
 packages = ["src"]

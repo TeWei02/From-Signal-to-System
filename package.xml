@@ -10,11 +10,11 @@
     Includes simulation, planning, control, and communication modules.
     </description>
 
-    <maintainer email="research@example.com">Robotics Team</maintainer>
+    <maintainer email="229563995+TeWei02@users.noreply.github.com">Robotics Team</maintainer>
     <license>MIT</license>
 
-    <url type="website">https://github.com/TeWei02/From-Signal-to-System-Communications-Sensing-and-Robotic-Navigation</url>
-    <url type="repository">https://github.com/TeWei02/From-Signal-to-System-Communications-Sensing-and-Robotic-Navigation</url>
+    <url type="website">https://github.com/TeWei02/From-Signal-to-System</url>
+    <url type="repository">https://github.com/TeWei02/From-Signal-to-System</url>
 
     <!-- ROS2 build and runtime dependencies -->
     <buildtool_depend>ament_cmake</buildtool_depend>

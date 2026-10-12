@@ -172,7 +172,7 @@ def build() -> str:
 <footer>
   {author} &middot; MIT License &middot;
   <a href="index.html">回到互動模型</a> &middot;
-  <a href="https://github.com/TeWei02/From-Signal-to-System-Communications-Sensing-and-Robotic-Navigation">GitHub</a>
+  <a href="https://github.com/TeWei02/From-Signal-to-System">GitHub</a>
 </footer>
 </div>
 </body>
