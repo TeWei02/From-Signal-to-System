@@ -29,10 +29,10 @@ ros2_available = False
 try:
     import rclpy
     from rclpy.node import Node
-    from nav_msgs.msg import OccupancyGrid, MapMetaData
-    from geometry_msgs.msg import Pose
-    from sensor_msgs.msg import PointCloud2
-    from nav_msgs.msg import Odometry
+    from nav_msgs.msg import OccupancyGrid, MapMetaData  # noqa: F401
+    from geometry_msgs.msg import Pose  # noqa: F401
+    from sensor_msgs.msg import PointCloud2  # noqa: F401
+    from nav_msgs.msg import Odometry  # noqa: F401
     ros2_available = True
 except ImportError:
     pass
@@ -53,9 +53,9 @@ def log_odds(p: float) -> float:
     return float(np.log(p / (1.0 - p + 1e-12)))
 
 
-def probability(l: float | np.ndarray) -> float | np.ndarray:
+def probability(lo: float | np.ndarray) -> float | np.ndarray:
     """Convert log-odds to probability."""
-    return 1.0 / (1.0 + np.exp(-l))
+    return 1.0 / (1.0 + np.exp(-lo))
 
 
 # ---------------------------------------------------------------------------

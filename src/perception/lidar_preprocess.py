@@ -22,7 +22,7 @@ Dependencies (pip / apt):
 from __future__ import annotations
 
 import time
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 from typing import Optional
 
 import numpy as np
@@ -33,7 +33,7 @@ try:
     import rclpy
     from rclpy.node import Node
     from sensor_msgs.msg import PointCloud2
-    from std_msgs.msg import Header
+    from std_msgs.msg import Header  # noqa: F401
     ros2_available = True
 except ImportError:
     pass

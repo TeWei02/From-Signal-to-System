@@ -35,7 +35,7 @@ try:
     from rclpy.node import Node
     from rclpy.time import Time
     import message_filters
-    from sensor_msgs.msg import PointCloud2, Imu
+    from sensor_msgs.msg import PointCloud2, Imu  # noqa: F401
     from nav_msgs.msg import Odometry, OccupancyGrid
     from geometry_msgs.msg import PoseWithCovarianceStamped, TransformStamped
     from tf2_ros import TransformBroadcaster

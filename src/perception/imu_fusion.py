@@ -26,7 +26,7 @@ Publishes:
 from __future__ import annotations
 
 import math
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 from typing import Optional
 
 import numpy as np
@@ -37,7 +37,7 @@ try:
     from rclpy.node import Node
     from sensor_msgs.msg import Imu
     from nav_msgs.msg import Odometry
-    from geometry_msgs.msg import PoseStamped
+    from geometry_msgs.msg import PoseStamped  # noqa: F401
     ros2_available = True
 except ImportError:
     pass

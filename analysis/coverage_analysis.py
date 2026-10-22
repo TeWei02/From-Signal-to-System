@@ -182,7 +182,7 @@ def main():
     analyzer = CoverageAnalyzer()
     metrics = analyzer.load_from_npz(args.data_file)
     
-    print(f"\nCoverage Analysis Results:")
+    print("\nCoverage Analysis Results:")
     print(f"  Coverage: {metrics.coverage_fraction * 100:.1f}%")
     print(f"  Area covered: {metrics.covered_area_m2:.1f} m²")
     print(f"  Bytes transmitted: {metrics.total_bytes_transmitted / 1e6:.2f} MB")
