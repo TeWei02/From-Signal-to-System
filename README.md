@@ -2,6 +2,17 @@
 
 **Language:** [![中文](https://img.shields.io/badge/%E4%B8%AD%E6%96%87-%E4%B8%AD%E6%96%87%E7%89%88-blue?style=flat-square)](README.md) [![English](https://img.shields.io/badge/English-English-blue?style=flat-square)](README.en.md)
 
+<div align="center">
+
+# Demo Preview
+
+系統架構示意：機上感知管線（Sense → Perceive → Map → Plan → Control）在無線通訊約束（頻寬 / 延遲 / 丟包）下運行，以及受限頻寬如何降低探索覆蓋成長率。
+
+<img src="assets/demo-preview.svg" alt="From Signal to System demo preview" width="720"/>
+
+</div>
+
+
 
 A comprehensive robotics research project exploring the intersection of **wireless communications**, **autonomous navigation**, and **distributed sensing**. This repository contains a full-stack simulation, perception pipeline, planning algorithms, and communication constraints that demonstrate how bandwidth, latency, and packet loss impact robot exploration efficiency.
 
