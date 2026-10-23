@@ -1,5 +1,8 @@
 # From Signal to System: Communications, Sensing, and Robotic Navigation
 
+**Language:** [![中文](https://img.shields.io/badge/%E4%B8%AD%E6%96%87-%E4%B8%AD%E6%96%87%E7%89%88-blue?style=flat-square)](README.md) [![English](https://img.shields.io/badge/English-English-blue?style=flat-square)](README.en.md)
+
+
 A comprehensive robotics research project exploring the intersection of **wireless communications**, **autonomous navigation**, and **distributed sensing**. This repository contains a full-stack simulation, perception pipeline, planning algorithms, and communication constraints that demonstrate how bandwidth, latency, and packet loss impact robot exploration efficiency.
 
 ## 🎯 Motivation
